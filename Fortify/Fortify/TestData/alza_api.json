@@ -1,0 +1,161 @@
+{
+    "vendorTeam": {
+        "intro": null,
+        "id": 5,
+        "name": "Apple Expert",
+        "motto": "",
+        "imgUrl": "https://cdn.alza.cz/Foto/Jean/Image/VendorTeam/5/638035776048387973.png",
+        "logoImgUrl": "https://cdn.alza.cz/Foto/Jean/Image/VendorTeam/Logos/5/637865673435030690.png",
+        "isOnline": true,
+        "meta": {
+            "href": "https://webapi.alza.cz/api/jean/v2/teams/5",
+            "rel": [
+                "self"
+            ]
+        }
+    },
+    "conversation": null,
+    "conversations": {
+        "meta": {
+            "href": "https://webapi.alza.cz/api/jean/v1/conversations",
+            "rel": [
+                "subs",
+                "collection"
+            ]
+        }
+    },
+    "callbackService": {
+        "orderTeamImgUrl": "https://www.alza.cz/Styles/full/images/Box.png",
+        "vendorTeamImgUrl": "https://cdn.alza.cz/Foto/Jean/Image/VendorTeam/Logos/5/637865673435030690.png",
+        "hasCallmeEnabled": false
+    },
+    "callbackActions": {
+        "createConversation": {
+            "name": "Create Conversation With Vendor Team",
+            "enabled": true,
+            "form": {
+                "value": [
+                    {
+                        "name": "conversationId",
+                        "label": null,
+                        "itemType": "string",
+                        "semanticItemType": "common",
+                        "isHidden": true,
+                        "isRequired": true,
+                        "isValid": true,
+                        "validationError": null,
+                        "isEditable": true
+                    },
+                    {
+                        "name": "vendorTeamId",
+                        "label": null,
+                        "value": "5",
+                        "itemType": "string",
+                        "semanticItemType": "common",
+                        "isHidden": true,
+                        "isRequired": true,
+                        "isValid": true,
+                        "validationError": null,
+                        "isEditable": true
+                    },
+                    {
+                        "name": "categoryId",
+                        "label": null,
+                        "value": "18843445",
+                        "itemType": "integer",
+                        "semanticItemType": "common",
+                        "isHidden": true,
+                        "isRequired": true,
+                        "isValid": true,
+                        "validationError": null,
+                        "isEditable": true
+                    },
+                    {
+                        "name": "sourceUrl",
+                        "label": null,
+                        "value": "https://www.alza.cz/EN/mobile-phones/18843445.htm",
+                        "itemType": "string",
+                        "semanticItemType": "common",
+                        "isHidden": true,
+                        "isRequired": true,
+                        "isValid": true,
+                        "validationError": null,
+                        "isEditable": true
+                    }
+                ],
+                "isFormValid": true,
+                "meta": {
+                    "href": "https://webapi.alza.cz/api/jean/v1/conversations",
+                    "rel": [
+                        "create-form"
+                    ],
+                    "method": "POST"
+                }
+            }
+        },
+        "createOrderConversation": {
+            "name": "Create Conversation With Vendor Team",
+            "enabled": true,
+            "form": {
+                "value": [
+                    {
+                        "name": "conversationId",
+                        "label": null,
+                        "itemType": "string",
+                        "semanticItemType": "common",
+                        "isHidden": true,
+                        "isRequired": true,
+                        "isValid": true,
+                        "validationError": null,
+                        "isEditable": true
+                    },
+                    {
+                        "name": "vendorTeamId",
+                        "label": null,
+                        "value": "8",
+                        "itemType": "string",
+                        "semanticItemType": "common",
+                        "isHidden": true,
+                        "isRequired": true,
+                        "isValid": true,
+                        "validationError": null,
+                        "isEditable": true
+                    },
+                    {
+                        "name": "categoryId",
+                        "label": null,
+                        "value": "18843445",
+                        "itemType": "integer",
+                        "semanticItemType": "common",
+                        "isHidden": true,
+                        "isRequired": true,
+                        "isValid": true,
+                        "validationError": null,
+                        "isEditable": true
+                    },
+                    {
+                        "name": "sourceUrl",
+                        "label": null,
+                        "value": "https://www.alza.cz/EN/mobile-phones/18843445.htm",
+                        "itemType": "string",
+                        "semanticItemType": "common",
+                        "isHidden": true,
+                        "isRequired": true,
+                        "isValid": true,
+                        "validationError": null,
+                        "isEditable": true
+                    }
+                ],
+                "isFormValid": true,
+                "meta": {
+                    "href": "https://webapi.alza.cz/api/jean/v1/conversations",
+                    "rel": [
+                        "create-form"
+                    ],
+                    "method": "POST"
+                }
+            }
+        }
+    },
+    "actionType": 1
+}

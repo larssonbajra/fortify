@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<XMLFile Version="x.x"/>
+	<Updated Date="11/09/2022"/>
+	<SearchbarTestValues>
+	<Electronics>
+		<Charger>Apple Charger</Charger>
+		<Battery>Apple</Battery>
+		<Ram>2TB</Ram>
+	</Electronics>
+	<Electronics>
+		<Charger>Android Charger</Charger>
+		<Battery>Samsung</Battery>
+		<Ram>128GB</Ram>
+	</Electronics>
+	<Electronics>
+		<Charger>Laptop Charger</Charger>
+		<Battery>Sony</Battery>
+		<Ram>64GB</Ram>
+	</Electronics>
+	</SearchbarTestValues>
+</root>
